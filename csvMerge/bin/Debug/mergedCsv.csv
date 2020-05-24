@@ -1,0 +1,7 @@
+Customer,Product,Quantity,Cost,Price
+Joe Pesci,Printer,25,10,
+Walter Nowak,Printer,20,10,
+John Smith,Printer,8,10,100
+John Smith,Pendrive,8,,200
+Joe Pesci,Pendrive,20,30,80
+Joe Pesci,Batteries,10,20,50

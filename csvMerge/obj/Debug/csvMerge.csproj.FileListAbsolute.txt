@@ -1,0 +1,6 @@
+c:\users\kacper\documents\visual studio 2015\Projects\csvMerge\csvMerge\bin\Debug\csvMerge.exe.config
+c:\users\kacper\documents\visual studio 2015\Projects\csvMerge\csvMerge\bin\Debug\csvMerge.exe
+c:\users\kacper\documents\visual studio 2015\Projects\csvMerge\csvMerge\bin\Debug\csvMerge.pdb
+c:\users\kacper\documents\visual studio 2015\Projects\csvMerge\csvMerge\obj\Debug\csvMerge.csprojResolveAssemblyReference.cache
+c:\users\kacper\documents\visual studio 2015\Projects\csvMerge\csvMerge\obj\Debug\csvMerge.exe
+c:\users\kacper\documents\visual studio 2015\Projects\csvMerge\csvMerge\obj\Debug\csvMerge.pdb
