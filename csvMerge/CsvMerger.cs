@@ -58,7 +58,6 @@ namespace csvMerge
 
             foreach(CsvRecords record in records)
             {
-                //record.removeValue("");
                 sep = "";
                 for(int i = 0; i<headersArr.Length; i++)
                 {

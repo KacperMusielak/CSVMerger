@@ -43,10 +43,9 @@ namespace csvMerge
             string temp = "temp";
             if (keyVal.TryGetValue(key, out temp))
             {
-            //Console.WriteLine(key);
                 return keyVal[key];
             }
-            else return "null";
+            else return temp;
         }
         public void removeValue(string value)
         {

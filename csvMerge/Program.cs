@@ -13,7 +13,6 @@ namespace csvMerge
         static void Main(string[] args)
         {
             string cwd = Directory.GetCurrentDirectory();
-            //Console.WriteLine(args[0]);
             List<string> csv1Headers = CsvMerger.getHeadersFromACsv(cwd + @"/" + args[0]);
             List<string> csv2Headers = CsvMerger.getHeadersFromACsv(cwd + @"/" + args[1]);
             List<string> allCsvHeaders = new List<string>();
@@ -36,11 +35,7 @@ namespace csvMerge
             {
                 mergeLists(ref csv2Records, ref csv1Records, ref removeRecords);
             }
-            foreach (CsvRecords rec in csv1Records)
-            {
-                //rec.printDictionary();
-            }
-            //Thread.Sleep(2000000);
+
             foreach (CsvRecords rec in removeRecords)
             {
                 allCsvRecords.Remove(rec);
@@ -63,14 +58,10 @@ namespace csvMerge
                     temp2[2] = rec2.get("Invoice Number");
                     if (temp2[0] == temp1[0] && temp2[1] == temp1[1] && temp2[2] == temp1[2])
                     {
-                        //Console.WriteLine(temp1[0]);
-                        //Console.WriteLine(temp1[1]);
-                        //Console.WriteLine(temp1[2]);
                         foreach (KeyValuePair<string, string> entry in rec2.getKeyVal())
                         {
                             rec.put(entry.Key, entry.Value);
                         }
-                        //csv2Records.Remove(rec2);
                         removeRecords.Add(rec2);
                     }
 
